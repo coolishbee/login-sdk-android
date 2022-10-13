@@ -2,17 +2,22 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 31
+    //buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.login.sdktest"
         minSdkVersion 19
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        resValue "string", "facebook_app_id", "2925534737733374"
+        resValue "string", "google_web_client_id", "526488632616-h18cgl28r8o4jvubm8nv7jbatl6pcdi5.apps.googleusercontent.com"
+        resValue "string", "apple_client_id", "universal.com.testapp"
+        resValue "string", "redirect_url", "https://here.url"
     }
 
     buildTypes {

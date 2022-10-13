@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">login-sdk-android</string>
+
+    <string name="facebook_app_id" />
+    <string name="google_web_client_id" />
+    <string name="apple_client_id" />
+    <string name="redirect_url" />
+
+</resources>
